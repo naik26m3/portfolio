@@ -1,0 +1,223 @@
+html {
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color:#0A0708;
+    
+}
+body{
+    margin: 0;
+}
+
+/* header */
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    margin-top: 0px;
+}
+
+nav { 
+    text-align: center;
+    padding: 30px;
+    background-color: #DADADE;
+    border: 3px solid #646464;
+    border-radius: 10px;
+    
+}
+  /* #0A0708  #444444 #747474 #B1B1B1 */
+nav a{
+    color: #0A0708;
+    font-size: 23px;
+    font-weight: 300;
+    text-decoration: none;
+    margin: 0 90px;
+    transition: font-size .3s;
+}
+
+nav a:hover{
+    color: #444444;
+    font-size: 25px;
+    transition: font-size .3s;
+
+}
+/* section */
+section, footer{
+    position: relative;
+    top: 105px;
+}
+.color {
+    background-color: #444444;
+    border: 3px solid  #B1B1B1;
+    color: #B1B1B1;
+    border-radius: 50px;
+    margin: 0px 150px;
+    height: 378px;
+}
+.color h1, .fonts h1{
+    text-align: center;
+    font-size: 30px;
+    color: #B1B1B1;
+}
+.color h3{
+    margin-left: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 25px;
+}
+.color div{
+    transition: color .3s;
+}
+.winter .colorbox .first {
+    background-color: #27374D;
+    color: #27374D;
+}
+.winter .colorbox .sec {
+    background-color: #526D82;
+    color: #526D82;
+}
+.winter .colorbox .third {
+    background-color: #9DB2BF;
+    color: #9DB2BF;
+}
+.winter .colorbox .fourth {
+    background-color: #DDE6ED;
+    color: #DDE6ED;
+}
+.cartoon .colorbox .first {
+    background-color: #FEF5ED;
+    color: #FEF5ED;
+}
+.cartoon .colorbox .sec {
+    background-color: #D3E4CD;
+    color: #D3E4CD;
+}
+.cartoon .colorbox .third {
+    background-color: #ADC2A9;
+    color: #ADC2A9;
+}
+.cartoon .colorbox .fourth {
+    background-color: #99A799;
+    color: #99A799;
+}
+.deepmood .colorbox .first {
+    background-color: #6C6A61;
+    color: #6C6A61;
+}
+.deepmood .colorbox .sec {
+    background-color: #EDE4E3;
+    color: #EDE4E3;
+}
+.deepmood .colorbox .third {
+    background-color: #6C6A61;
+    color: #6C6A61;
+}
+.deepmood .colorbox .fourth {
+    background-color: #C0C0C0;
+    color: #C0C0C0;
+}
+.vintage .colorbox .first {
+    background-color: #F0ECE2;
+    color: #F0ECE2;
+}
+.vintage .colorbox .sec {
+    background-color: #DFD3C3;
+    color: #DFD3C3;
+}
+.vintage .colorbox .third {
+    background-color: #C7B198;
+    color: #C7B198;
+}
+.vintage .colorbox .fourth {
+    background-color: #596E79;
+    color: #596E79;
+}
+.deepmood, .vintage {
+    width: 50%;
+    float:right;
+}
+.winter ,.cartoon{
+    width: 50%;
+    float: left;
+    margin-bottom: 0px;
+}
+.winter div, .cartoon div, .vintage div, .deepmood div{
+    display: inline;
+    background-color: aliceblue;
+    padding: 30px 10px;
+    margin-left: 0px; 
+}
+.winter .colorbox, .cartoon .colorbox,.deepmood .colorbox,.vintage .colorbox  {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.colorbox .sec:hover, .colorbox .first:hover {
+    color: #B1B1B1;
+}
+.colorbox .fourth:hover, .colorbox .third:hover {
+    color: #0A0708;
+}
+
+/* fonts */
+.san-narrow ,.quicksand700{
+    width: 50%;
+    float: left;
+    margin-bottom: 0px;
+}
+.quicksand500, .yanone {
+    width: 50%;
+    float:right;
+}
+
+.fonts{
+    background-color: #444444;
+    border: 3px solid  #B1B1B1;
+    border-radius: 50px;
+    text-align: center;
+    color: #B1B1B1;
+    font-size: 15px;
+    height: 374px;
+    margin: 55px 144px
+}
+
+.san-narrow {
+    font-family: 'PT Sans Narrow', sans-serif;;
+}
+.quicksand500  {
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+}
+.quicksand700{
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+}
+.yanone {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.textstyles h1{
+    text-align: center;
+
+
+}
+.textstyles {
+    background-color: #B1B1B1;
+    text-align: left;
+    border: 5px solid #444444 ;
+    font-size: larger;
+    color: #444444;
+    height: 445px;
+    margin: auto 148px;
+    border-radius: 50px;
+}
+.textstyles div {
+    margin-left: 200px;
+    max-width: 854px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: #444444;
+    font-size: larger;
+}
+
